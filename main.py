@@ -1,4 +1,4 @@
 temp = input("Enter temperature in celsius: ")
-temp = int(temp)
+temp = float(temp)
 far = (temp *1.8) + 32
-print(str(temp) + ".0° in Celsius is equivalent to " + str(far) + "° Fahrenheit.")
+print(str(temp) + "° in Celsius is equivalent to " + str(far) + "° Fahrenheit.")
